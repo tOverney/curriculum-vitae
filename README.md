@@ -7,7 +7,5 @@
 ## To build ##
 
 ```
-#!bash
-
 make
 ```
