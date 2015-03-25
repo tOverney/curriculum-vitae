@@ -1,0 +1,6 @@
+.gitignore
+
+!xelatex =	|> ^ XELATEX %f^		\
+			xelatex %f;		\
+			xelatex %f		\
+		|>
