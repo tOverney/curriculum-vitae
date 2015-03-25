@@ -16,3 +16,6 @@ tup init
 tup
 ```
 Then you will find the generated file in the `build` folder.
+
+__Remark :__ if you use tup after having built with make once, you will have to run
+`make clean` first

@@ -12,7 +12,7 @@ build:
 	mkdir build
 
 clean:
-	rm -rf build/*
+	rm -rf build/cv.*
 
 open: build/cv.pdf
 	$(OPEN) build/cv.pdf
