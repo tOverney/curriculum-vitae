@@ -3,6 +3,8 @@ all: open
 UNAME_S := $(shell uname -s)
 ifeq ($(UNAME_S), Darwin)
 	OPEN := open
+else ifeq ($(UNAME_S), Linux)
+	OPEN := xdg-open
 else
 	OPEN := acroread
 endif
