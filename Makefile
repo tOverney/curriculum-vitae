@@ -21,5 +21,5 @@ open: build/cv.pdf
 
 build/cv.pdf: cv.tex build
 	# Do it twice for the cadre
-	xelatex -output-directory build/ cv.tex
-	xelatex -output-directory build/ cv.tex
+	xelatex -interaction=nonstopmode -output-directory build/ cv.tex
+	xelatex -interaction=nonstopmode -output-directory build/ cv.tex
