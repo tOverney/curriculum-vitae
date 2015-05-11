@@ -3,9 +3,7 @@ sudo: required
 install:
     - sudo apt-get install texlive-latex-recommended 
     - sudo apt-get install texlive-latex-extra 
-    - sudo apt-get install texlive-fonts-recommended 
     - sudo apt-get install texlive-xetex 
-    - sudo apt-get install texlive-lang-italian
     - sudo apt-get install chktex
     - sudo apt-get install aspell 
     - ./install_fonts.sh
