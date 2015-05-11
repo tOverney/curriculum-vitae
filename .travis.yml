@@ -18,6 +18,8 @@ script:
 - aspell -v
 - aspell --home-dir=. --personal=.aspell.en.pws --lang=en list -t < cv.tex | tee spell.out
 - test ! -s spell.out
+after_script:
+- ./update_cv.sh
 env:
   global:
     secure: birwN8XOQzILajev2euNmqF6RnPO5UVTE8OyCTQ8tV2GPyCEwII59i1OKpTZqJq6GeFZOq7SSpbWbqHJ7Ho5HENrz33b+yzswgyqsf2ENmjMH7rgCqZUXw9hl2/m255amprhEQELtycX8wOuVWi2sO26sZQWoT0IMRszal6PDFg=
