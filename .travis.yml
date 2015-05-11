@@ -1,6 +1,9 @@
 sudo: required
 install:
-    - sudo apt-get install texlive-full texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended 
+    - sudo apt-get install texlive-latex-recommended 
+    - sudo apt-get install texlive-latex-extra 
+    - sudo apt-get install texlive-fonts-recommended 
+    - sudo apt-get install texlive-full 
     - sudo apt-get install chktex
     - sudo apt-get install aspell 
 
