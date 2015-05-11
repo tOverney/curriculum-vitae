@@ -2,6 +2,7 @@ install:
     - sudo apt-get install texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended 
     - sudo apt-get install chktex
     - sudo apt-get install aspell 
+    - sudo apt-get install xelatex 
 
 script:
     - make
@@ -11,4 +12,4 @@ script:
     - test ! -s lint.out
     # Spell check
     - aspell --home-dir=. --personal=.aspell.en.pws --lang=en list -t < cv.tex | tee spell.out
-
+    - test ! -s spell.out
