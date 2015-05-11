@@ -1,5 +1,6 @@
 lanugage: latex
 sudo: required
+cache: apt
 install:
     - sudo apt-get install texlive-latex-recommended 
     - sudo apt-get install texlive-latex-extra 
