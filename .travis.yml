@@ -14,7 +14,7 @@ install:
 script:
     # Make sure that cv builds correctly
     - xetex -v
-    - make
+    - make build/cv.pdf
 
     # Lint the pdf
     - chktex -W # Print version information.
