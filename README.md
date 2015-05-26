@@ -1,4 +1,4 @@
-# Curriculum Vitae #
+# Curriculum Vitae # [![Build Status](https://travis-ci.org/paullepoulpe/curriculum-vitae.svg?branch=master)](https://travis-ci.org/paullepoulpe/curriculum-vitae)
 
 ## You need ##
 * the Fontin font (available [here](http://www.exljbris.com/fontin.html))
