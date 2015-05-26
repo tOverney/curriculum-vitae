@@ -1,11 +1,11 @@
-# Curriculum Vitae # [![Build Status](https://travis-ci.org/paullepoulpe/curriculum-vitae.svg?branch=master)](https://travis-ci.org/paullepoulpe/curriculum-vitae)
+# Curriculum Vitae [![Build Status](https://travis-ci.org/paullepoulpe/curriculum-vitae.svg?branch=master)](https://travis-ci.org/paullepoulpe/curriculum-vitae)
 
-## You need ##
+## You need
 * the Fontin font (available [here](http://www.exljbris.com/fontin.html))
 * xelatex
 * layaureo.sty (found in the texlive italian package)
 
-## To build ##
+## To build
 
 ```
 make
