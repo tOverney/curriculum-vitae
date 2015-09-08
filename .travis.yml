@@ -1,12 +1,15 @@
 language: latex
-sudo: required
+sudo: false
 cache: apt
+addons:
+  apt:
+    packages:
+    - texlive-latex-recommended
+    - texlive-latex-extra
+    - texlive-xetex
+    - chktex
+    - aspell
 install:
-- sudo apt-get install texlive-latex-recommended
-- sudo apt-get install texlive-latex-extra
-- sudo apt-get install texlive-xetex
-- sudo apt-get install chktex
-- sudo apt-get install aspell
 - ./install_fonts.sh
 - ./install_tex_packages.sh
 script:
