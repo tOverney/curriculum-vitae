@@ -2,7 +2,7 @@
 
 set -x
 
-readonly REPO="curriculum-vitae"
+readonly REPO="CurriculumVitae"
 
 readonly SRC="build/cv.pdf"
 readonly TARGET="dengels.ch/public/doc/cv.pdf"
