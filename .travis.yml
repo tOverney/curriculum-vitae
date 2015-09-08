@@ -6,6 +6,7 @@ addons:
     packages:
     - texlive-latex-recommended
     - texlive-latex-extra
+    - latex-xcolor
     - texlive-xetex
     - chktex
     - aspell
@@ -13,6 +14,7 @@ install:
 - ./install_fonts.sh
 - ./install_tex_packages.sh
 script:
+- set -e
 - xetex -v
 - make build/cv.pdf
 - chktex -W
