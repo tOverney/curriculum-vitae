@@ -13,7 +13,7 @@ script:
 - xetex -v
 - make build/cv.pdf
 - chktex -W
-- chktex -q *.tex | tee lint.out
+- chktex -q cv.tex | tee lint.out
 - test ! -s lint.out
 - aspell -v
 - aspell --home-dir=. --personal=.aspell.en.pws --lang=en list -t < cv.tex | tee spell.out
