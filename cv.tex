@@ -64,8 +64,6 @@
 
 \pagestyle{empty} % Removes page numbering
 
-\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
-
 \begin{tikzpicture}[remember picture, overlay]
   \draw[line width = 1.5pt, style = double] (-0.25in,0.45in) rectangle
   ($(current page.south east) + (-0.25in,0.25in)$);
@@ -121,21 +119,21 @@
 \section{Education}
 
 \begin{tabularx}{\textwidth}{r X r} 	
-2013--\textsc{Present} & 
+Sept 2013 -- July 2016 & 
 \textbf{Masters Degree in Computer Science} & 
 \textit{Swiss Federal Institute of Technology (EPFL)}\\
-&\footnotesize \textsc{GPA}: 5.51 / 6.0\\
+&\footnotesize \textsc{GPA}: 5.46 / 6.0\\
 
 %------------------------------------------------
 
-2012--2013 & 
+Aug 2012 -- May 2013 & 
 \textbf{Exchange Student} &
 \textit{Carnegie Mellon University (CMU)}\\
 &\footnotesize \textsc{GPA}: 3.77 / 4.0\\
 
 %------------------------------------------------
 
-2010--2013 & 
+Sept 2010 -- July 2013 & 
 \textbf{Bachelor Degree in Computer Science} & 
 \textit{ EPFL }\\
 &\footnotesize \textsc{GPA}: 5.63 / 6.0\\
@@ -152,11 +150,22 @@
 
 \begin{tabularx}{\textwidth}{r|X}
 
+\textsc{Sept-Dev 2015} & \textbf{Code Performance Analysis Project} \\
+\multirow{3}{*}{ \includegraphics[width=60pt]{img/epfl.eps}}
+& \emph{Scalameter for ScalaJS}\\ 
+& \footnotesize{Working with a partner, we are tasked to work on the Scalameter
+DSL and integrate it to ScalaJS,
+the JavaScript implementation of the Scala compiler.}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
 
 \textsc{Jun-Sept 2015} & \textbf{Microsoft} \\
 \multirow{2}{*}{ \includegraphics[width=60pt]{img/microsoft.eps}}
-& \emph{Software engineer internship}\\ 
-& \footnotesize{}\\
+& \emph{Software engineer internship - Sharepoint Authentication and Authorization}\\ 
+& \footnotesize{Responsible for collecting and displaying telemetry about user
+scenarions in the cloud. Developped internal tools to facilitate creation and deployements
+of monitors that track the system's health.}\\
 \multicolumn{2}{c}{} \\
 
 %------------------------------------------------
@@ -174,11 +183,10 @@ run-time with no memory access and thus very low overhead (1--5\%)}\\
 \textsc{Aug-Sept 2014} & \textbf{SwissMediaPartners AG} \\
 \multirow{4}{*}{ \includegraphics[width=60pt]{img/smp.jpg}}
 & \emph{Software Engineering}\\ 
-& \footnotesize{Helped on all levels, from the decision on the tools used to the
-interaction with the clients. Implemented some of the core parts of one of the
-main projects in the company. Used and got familiar with an extensive number of
-web development tools (play framework, bootstrap, JavaScript, CoffeeScript,
-less, sbt)}\\
+& \footnotesize{Responsible for the design and implementation of a web
+service. Implemented the REST API and web administrative console. Used
+and got familiar with an extensive number of web development tools (play
+framework, bootstrap, JavaScript, CoffeeScript, less, sbt)}\\ 
 \multicolumn{2}{c}{} \\
 
 %------------------------------------------------
@@ -215,9 +223,10 @@ bugs to create a robust final product. Managed a large code base (9 KLOC) using 
 \begin{tabularx}{\textwidth}{rX|rl}
 
 & & & \\
-\textsc{\large{Programming}} & Scala, C, Java, bash, python, C++, JavaScript,
+\textsc{\large{Programming}} & Scala, C, Java, C\#, bash, python, C++, JavaScript,
 Lua, Perl &
 \textsc{\large{Fluent}} & French, English \\
+& & & \\
 \textsc{\large{Skills}} & Web Development, Systems Programming, Compilers, Big
 Data Analytics, Reactive Programming&
 \textsc{\large{Basic}} & Italian, German \\
@@ -225,6 +234,13 @@ Data Analytics, Reactive Programming&
 \end{tabularx}
 
 \end{center}
+
+\pagebreak
+\begin{tikzpicture}[remember picture, overlay]
+  \draw[line width = 1.5pt, style = double] (-0.25in,0.45in) rectangle
+  ($(current page.south east) + (-0.25in,0.25in)$);
+\end{tikzpicture}
+
 
 %----------------------------------------------------------------------------------------
 %	AWARDS
@@ -246,19 +262,21 @@ List} of the School of Computer Science at Carnegie Mellon University\\
 Mathematics and Applied Mathematics Distinction at Gymnase de Nyon\\
 \end{tabular}
 
-\pagebreak
-\begin{tikzpicture}[remember picture, overlay]
-  \draw[line width = 1.5pt, style = double] (-0.25in,0.45in) rectangle
-  ($(current page.south east) + (-0.25in,0.25in)$);
-\end{tikzpicture}
-
-
 %----------------------------------------------------------------------------------------
 %	EXTRA CURRICULAR ACTIVITIES
 %----------------------------------------------------------------------------------------
 
 \section{Extra-Curricular Activities}
 \begin{tabular}{rl}
+
+\textsc{\large{\href{https://github.com/paullepoulpe/musicbot}{MusicBot}}} &
+Exploration of web technologies through experimentation. \\
+
+\textsc{\large{(\href{https://musicbot.ch}{Work in progress})}} &
+ScalaJS, WebSockets, actor programming, Play Framework, Spotify's APIs, \\
+& oAuth2, MaterialiseCSS, React.\\
+\multicolumn{2}{c}{} \\
+
 \textsc{\large{Student assistant}} &
 Information, Computation, Communication ---
 Compiler construction\\
@@ -286,19 +304,19 @@ Switzerland's largest algorithmic contests.\\
 %	RELEVANT CLASSES
 %----------------------------------------------------------------------------------------
 
-\section{Relevant Classes}
-\begin{center}
-\begin{itemize}
-\item Operating System Design and Implementation (Carnegie Mellon University) 
-\item Databases Applications (Carnegie Mellon University)
-\item Foundations of Software Engineering (Carnegie Mellon University)
-\item Graph Theory (Carnegie Mellon University)
-\item Algorithms (Swiss Federal Institute of Technology)
-\item Compiler Construction (Swiss Federal Institute of Technology)
-\item Distributed Algorithms (Swiss Federal Institute of Technology)
-\item Cryptography and Security (Swiss Federal Institute of Technology)
-\end{itemize}
-\end{center}
+%\section{Relevant Classes}
+%\begin{center}
+%\begin{itemize}
+%\item Operating System Design and Implementation (Carnegie Mellon University) 
+%\item Databases Applications (Carnegie Mellon University)
+%\item Foundations of Software Engineering (Carnegie Mellon University)
+%\item Graph Theory (Carnegie Mellon University)
+%\item Algorithms (Swiss Federal Institute of Technology)
+%\item Compiler Construction (Swiss Federal Institute of Technology)
+%\item Distributed Algorithms (Swiss Federal Institute of Technology)
+%\item Cryptography and Security (Swiss Federal Institute of Technology)
+%\end{itemize}
+%\end{center}
 
 
 %----------------------------------------------------------------------------------------
