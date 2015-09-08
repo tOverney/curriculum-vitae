@@ -1,6 +1,7 @@
 #!/usr/bin/env sh
 
-set -x
+set -x // Echo commands
+set -e // Exit on error
 
 mkdir ~/.fonts
 
