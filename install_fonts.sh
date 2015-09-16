@@ -1,6 +1,7 @@
 #!/usr/bin/env sh
 
-set -x
+set -x // Echo commands
+set -e // Exit on error
 
 mkdir ~/.fonts
 
@@ -9,5 +10,5 @@ wget http://www.exljbris.com/dl/fontin_pc.zip
 unzip fontin_pc.zip -d ~/.fonts
 
 # Font awesome
-wget http://mirrors.ctan.org/fonts/fontawesome/FontAwesome.otf
-mv FontAwesome.otf ~/.fonts
+wget http://fontawesome.io/assets/font-awesome-4.4.0.zip -O font-awesome.zip
+unzip -j font-awesome.zip */fonts/* -d ~/.fonts

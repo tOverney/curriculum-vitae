@@ -1,13 +1,13 @@
-#!/usr/bin/env sh
+#!/usr/bin/env bash
 
 set -x
 
-readonly REPO="curriculum-vitae"
+readonly REPO="CurriculumVitae"
 
 readonly SRC="build/cv.pdf"
 readonly TARGET="dengels.ch/public/doc/cv.pdf"
 
-if [ "$TRAVIS_REPO_SLUG" == "paullepoulpe/$REPO" ] && [ "$TRAVIS_PULL_REQUEST" == "false" ] && [ "$TRAVIS_BRANCH" == "master" ]; then
+if [ "$TRAVIS_REPO_SLUG" = "paullepoulpe/$REPO" -a "$TRAVIS_PULL_REQUEST" = "false" -a "$TRAVIS_BRANCH" = "master" ]; then
 
     # Setup travis info
     git config --global user.email "travis@travis-ci.org"
