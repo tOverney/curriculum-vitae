@@ -3,7 +3,7 @@
 set -x // Echo commands
 set -e // Exit on error
 
-mkdir ~/.fonts
+mkdir -p ~/.fonts
 
 # Fontin font
 wget http://www.exljbris.com/dl/fontin_pc.zip
